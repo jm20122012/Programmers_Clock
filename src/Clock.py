@@ -73,7 +73,7 @@ class Clock(QWidget):
         print(f"Current container width: {self.container.size().width()}")
         print(f"Current container height: {self.container.size().height()}")
         print(f"Setting clock radius to {self.container.size().width()}")
-        self.set_clock_radius(int(self.container.size().width() * 0.25))
+        self.set_clock_radius(int(self.container.size().width() * 0.38))
 
         self.draw_clock(painter)
 

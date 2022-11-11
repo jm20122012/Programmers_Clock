@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>2032</width>
-    <height>1082</height>
+    <width>800</width>
+    <height>326</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,6 +17,7 @@
    <string notr="true">*{
 	background-color: #2A2E32;
 	border: None;
+	color: white;
 }
 QFrame#analog_clock_frame{
 	border: 1px solid white;
@@ -67,7 +68,7 @@ QFrame#hex_clock_frame{
             </property>
             <property name="font">
              <font>
-              <pointsize>30</pointsize>
+              <pointsize>20</pointsize>
              </font>
             </property>
             <property name="text">
@@ -113,7 +114,7 @@ QFrame#hex_clock_frame{
               <widget class="QLabel" name="hex_clock_label">
                <property name="font">
                 <font>
-                 <pointsize>30</pointsize>
+                 <pointsize>20</pointsize>
                 </font>
                </property>
                <property name="text">
@@ -146,7 +147,7 @@ QFrame#hex_clock_frame{
                     <widget class="QLabel" name="hex_clock_hours_label">
                      <property name="font">
                       <font>
-                       <pointsize>35</pointsize>
+                       <pointsize>25</pointsize>
                       </font>
                      </property>
                      <property name="text">
@@ -185,7 +186,7 @@ QFrame#hex_clock_frame{
                     <widget class="QLabel" name="hex_clock_semicolon_label">
                      <property name="font">
                       <font>
-                       <pointsize>41</pointsize>
+                       <pointsize>30</pointsize>
                       </font>
                      </property>
                      <property name="text">
@@ -212,7 +213,7 @@ QFrame#hex_clock_frame{
                     <widget class="QLabel" name="hex_clock_minutes_label">
                      <property name="font">
                       <font>
-                       <pointsize>35</pointsize>
+                       <pointsize>25</pointsize>
                       </font>
                      </property>
                      <property name="text">
@@ -257,7 +258,7 @@ QFrame#hex_clock_frame{
               <widget class="QLabel" name="binary_clock_label">
                <property name="font">
                 <font>
-                 <pointsize>30</pointsize>
+                 <pointsize>20</pointsize>
                 </font>
                </property>
                <property name="text">
@@ -290,7 +291,7 @@ QFrame#hex_clock_frame{
                     <widget class="QLabel" name="binary_clock_hours_label">
                      <property name="font">
                       <font>
-                       <pointsize>35</pointsize>
+                       <pointsize>25</pointsize>
                       </font>
                      </property>
                      <property name="text">
@@ -329,7 +330,7 @@ QFrame#hex_clock_frame{
                     <widget class="QLabel" name="binary_clock_semicolon_label">
                      <property name="font">
                       <font>
-                       <pointsize>41</pointsize>
+                       <pointsize>30</pointsize>
                       </font>
                      </property>
                      <property name="text">
@@ -356,7 +357,7 @@ QFrame#hex_clock_frame{
                     <widget class="QLabel" name="binary_clock_minutes_label">
                      <property name="font">
                       <font>
-                       <pointsize>35</pointsize>
+                       <pointsize>25</pointsize>
                       </font>
                      </property>
                      <property name="text">

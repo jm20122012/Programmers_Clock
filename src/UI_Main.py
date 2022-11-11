@@ -14,10 +14,11 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(2032, 1082)
+        MainWindow.resize(800, 326)
         MainWindow.setStyleSheet("*{\n"
 "    background-color: #2A2E32;\n"
 "    border: None;\n"
+"    color: white;\n"
 "}\n"
 "QFrame#analog_clock_frame{\n"
 "    border: 1px solid white;\n"
@@ -51,7 +52,7 @@ class Ui_MainWindow(object):
         self.label.setMinimumSize(QtCore.QSize(0, 50))
         self.label.setMaximumSize(QtCore.QSize(16777215, 50))
         font = QtGui.QFont()
-        font.setPointSize(30)
+        font.setPointSize(20)
         self.label.setFont(font)
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
@@ -76,7 +77,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_8.setObjectName("verticalLayout_8")
         self.hex_clock_label = QtWidgets.QLabel(self.hex_clock_frame_contents)
         font = QtGui.QFont()
-        font.setPointSize(30)
+        font.setPointSize(20)
         self.hex_clock_label.setFont(font)
         self.hex_clock_label.setAlignment(QtCore.Qt.AlignCenter)
         self.hex_clock_label.setObjectName("hex_clock_label")
@@ -95,7 +96,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_4.setObjectName("verticalLayout_4")
         self.hex_clock_hours_label = QtWidgets.QLabel(self.hex_clock_hours_frame)
         font = QtGui.QFont()
-        font.setPointSize(35)
+        font.setPointSize(25)
         self.hex_clock_hours_label.setFont(font)
         self.hex_clock_hours_label.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.hex_clock_hours_label.setObjectName("hex_clock_hours_label")
@@ -111,7 +112,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_3.setObjectName("verticalLayout_3")
         self.hex_clock_semicolon_label = QtWidgets.QLabel(self.hex_clock_semicolon_frame)
         font = QtGui.QFont()
-        font.setPointSize(41)
+        font.setPointSize(30)
         self.hex_clock_semicolon_label.setFont(font)
         self.hex_clock_semicolon_label.setAlignment(QtCore.Qt.AlignCenter)
         self.hex_clock_semicolon_label.setObjectName("hex_clock_semicolon_label")
@@ -125,7 +126,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_10.setObjectName("verticalLayout_10")
         self.hex_clock_minutes_label = QtWidgets.QLabel(self.hex_clock_minutes_frame)
         font = QtGui.QFont()
-        font.setPointSize(35)
+        font.setPointSize(25)
         self.hex_clock_minutes_label.setFont(font)
         self.hex_clock_minutes_label.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.hex_clock_minutes_label.setObjectName("hex_clock_minutes_label")
@@ -148,7 +149,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_9.setObjectName("verticalLayout_9")
         self.binary_clock_label = QtWidgets.QLabel(self.binary_clock_frame_contents)
         font = QtGui.QFont()
-        font.setPointSize(30)
+        font.setPointSize(20)
         self.binary_clock_label.setFont(font)
         self.binary_clock_label.setAlignment(QtCore.Qt.AlignCenter)
         self.binary_clock_label.setObjectName("binary_clock_label")
@@ -167,7 +168,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_5.setObjectName("verticalLayout_5")
         self.binary_clock_hours_label = QtWidgets.QLabel(self.binary_clock_hours_frame)
         font = QtGui.QFont()
-        font.setPointSize(35)
+        font.setPointSize(25)
         self.binary_clock_hours_label.setFont(font)
         self.binary_clock_hours_label.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.binary_clock_hours_label.setObjectName("binary_clock_hours_label")
@@ -183,7 +184,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_6.setObjectName("verticalLayout_6")
         self.binary_clock_semicolon_label = QtWidgets.QLabel(self.binary_clock_semicolon_frame)
         font = QtGui.QFont()
-        font.setPointSize(41)
+        font.setPointSize(30)
         self.binary_clock_semicolon_label.setFont(font)
         self.binary_clock_semicolon_label.setAlignment(QtCore.Qt.AlignCenter)
         self.binary_clock_semicolon_label.setObjectName("binary_clock_semicolon_label")
@@ -197,7 +198,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_7.setObjectName("verticalLayout_7")
         self.binary_clock_minutes_label = QtWidgets.QLabel(self.binary_clock_minutes_frame)
         font = QtGui.QFont()
-        font.setPointSize(35)
+        font.setPointSize(25)
         self.binary_clock_minutes_label.setFont(font)
         self.binary_clock_minutes_label.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.binary_clock_minutes_label.setObjectName("binary_clock_minutes_label")
