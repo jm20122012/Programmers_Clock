@@ -1,4 +1,4 @@
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtWidgets
 import sys
 from datetime import datetime
 
@@ -15,8 +15,8 @@ def update_hex_clock():
     hour_to_hex = hex(datetime.now().hour)
     minute_to_hex = hex(datetime.now().minute)
 
-    print(f"Hour Dec: {datetime.now().hour} - Hour Hex: {hour_to_hex}")
-    print(f"Minute Dec: {datetime.now().minute} - Minute Hex: {minute_to_hex}")
+    # print(f"Hour Dec: {datetime.now().hour} - Hour Hex: {hour_to_hex}")
+    # print(f"Minute Dec: {datetime.now().minute} - Minute Hex: {minute_to_hex}")
 
     ui.hex_clock_hours_label.setText(hour_to_hex)
     ui.hex_clock_minutes_label.setText(minute_to_hex)
@@ -26,8 +26,8 @@ def update_binary_clock():
     hour_to_bin = bin(datetime.now().hour)
     minute_to_bin = bin(datetime.now().minute)
 
-    print(f"Hour Dec: {datetime.now().hour} - Hour Hex: {hour_to_bin}")
-    print(f"Minute Dec: {datetime.now().minute} - Minute Hex: {minute_to_bin}")
+    # print(f"Hour Dec: {datetime.now().hour} - Hour Hex: {hour_to_bin}")
+    # print(f"Minute Dec: {datetime.now().minute} - Minute Hex: {minute_to_bin}")
 
     ui.binary_clock_hours_label.setText(hour_to_bin)
     ui.binary_clock_minutes_label.setText(minute_to_bin)
